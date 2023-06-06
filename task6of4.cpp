@@ -10,15 +10,15 @@ class shyam
     {
         if(distance<=1000)
         {
-        cout<<"500";
+        return 500;
         }
         else if (distance>=1000 && distance <=2000)
         {
-            cout<<"1100";
+            return 1100;
         }
         else
         {
-            cout<<"2200";
+            return 2200;
         }
 
     }
@@ -34,6 +34,8 @@ class shyam
         calf= CALFUEL();
 
     }
+
+    
     void SHOWINFO()
     {
         cout<<"flight number:"<<flightnumber<<endl;
